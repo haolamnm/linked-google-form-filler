@@ -2,6 +2,10 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    background: #5e675f;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 14px;
   }
   
   .container {
@@ -13,23 +17,17 @@ body, html {
   
   .form-section {
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 12px 8px 10px rgba(39, 57, 57, 1);
     display: flex;
-  }
-  .image-section, .form-section {
-    height: 250px;
-  }
-  
-
-  
-  .form-section {
-    background: white;
+    background: #e1dbcd;;
     padding: 20px;
     width: 60%;
     max-width: 600px;
   }
+  .image-section, .form-section {
+    height: 265px;
+  }
   
-
   .image-section img {
     height: 100%;
     width: auto;
@@ -48,41 +46,44 @@ body, html {
   }
   
   .full-width {
-    flex: 0 0 100%;
+    flex: 0 0 98%;
+  }
+  #registrationForm {
+    margin-top: 12px;
   }
   
   input, select, button {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
   }
   
   button {
-    background-color: #4CAF50;
+    background-color: #23332e;
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100px;
   }
   
   button:hover {
     opacity: 0.8;
   }
   
-  @media screen and (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
+  @media screen and (max-width: 850px) {
   
     .form-section {
       width: 70%;
     }
   
-    .image-section {
-      display: block;
+    .image-section img {
+      display: none;
     }
   }
   
