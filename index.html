@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Form Section</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <!-- <div class="image-section">
+    <img src="https://i.ibb.co/cvv8Lyh/Da-lat-city-Vietnam.jpg" alt="Da Lat City, Vietnam">
+  </div> -->
+  <div class="form-section">
+    <div class="image-section">
+        <img src="https://i.ibb.co/nkxJSF8/Da-lat-city-Vietnam-1.jpg" alt="Da Lat City, Vietnam">
+    </div>
+    <form id="registrationForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScy9duFBLVE4gwt9PKP2_a_8IEot8nkI-IdBDCTk6l5HU2tbw/formResponse" method="POST" target="_blank">
+      <div class="row">
+        <div class="column">
+          <label for="name">Họ và Tên:</label>
+          <input type="text" id="name" name="entry.1663979578" required>
+        </div>
+        <div class="column">
+          <label for="birthYear">Năm sinh:</label>
+          <select id="birthYear" name="entry.1548868550" required>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <label for="phone">Số điện thoại:</label>
+          <input type="tel" id="phone" name="entry.473742259" required>
+        </div>
+        <div class="column">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="entry.1645207454" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="full-width">
+          <label for="address">Địa chỉ:</label>
+          <input type="text" id="address" name="entry.796487975" required>
+        </div>
+      </div>
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+  </div>
+</div>
+<!-- <script src="script.js"></script> -->
+</body>
+</html>
