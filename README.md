@@ -10,7 +10,7 @@ This HTML code creates a form that collects user information and submits it dire
 ___
 1. **Form Tag Attributes:**
 ```html
-<form id="registrationForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSec7EFg6nB7F1lJAduuXCVeLk-qA1HOBqiRFapLoxlxjZTcMg/formResponse" method="POST" target="_blank" autocomplete="off">
+<form id="registrationForm" action="your-google-form-response-link" method="POST" target="_blank" autocomplete="off">
 ```
 - `action`: URL of the Google Form where the data will be submitted.
 - `method`: The HTTP method used for the request (`POST` is used here to send data).
