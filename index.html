@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<title>Responsive Form Section</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <title>THĂM EM</title>
+    <link rel="icon" type="image/png" href="https://i.ibb.co/8xc4r3h/small-logo.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-  <!-- <div class="image-section">
-    <img src="https://i.ibb.co/cvv8Lyh/Da-lat-city-Vietnam.jpg" alt="Da Lat City, Vietnam">
-  </div> -->
+<div id="preloader">
+    <span class="loader"><span class="loader-inner"></span></span>    
+</div>
+<div class="container" id="content" style="visibility: hidden">
   <div class="form-section">
     <div class="image-section">
-        <img src="https://i.ibb.co/nkxJSF8/Da-lat-city-Vietnam-1.jpg" alt="Da Lat City, Vietnam">
+        <img src="https://i.ibb.co/TMBp5RC/main-img.png" alt="main-img">
     </div>
-    <form id="registrationForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScy9duFBLVE4gwt9PKP2_a_8IEot8nkI-IdBDCTk6l5HU2tbw/formResponse" method="POST" target="_blank">
+    <form id="registrationForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSec7EFg6nB7F1lJAduuXCVeLk-qA1HOBqiRFapLoxlxjZTcMg/formResponse" method="POST" target="_blank" autocomplete="off">
       <div class="row">
         <div class="column">
-          <label for="name">HỌ VÀ TÊN</label>
-          <input type="text" id="name" name="entry.1663979578" required>
+          <label for="name">HỌ & TÊN</label>
+          <input type="text" id="name" name="entry.636287609" required placeholder="In hoa chữ đầu">
         </div>
         <div class="column">
           <label for="birthYear">NĂM SINH</label>
-          <select id="birthYear" name="entry.1548868550" required>
+          <select id="birthYear" name="entry.1105954743" required>
             <option value="2002">2002</option>
             <option value="2003">2003</option>
             <option value="2004">2004</option>
@@ -37,24 +40,37 @@
       </div>
       <div class="row">
         <div class="column">
-          <label for="phone">SỐ ĐIỆN THOẠI</label>
-          <input type="tel" id="phone" name="entry.473742259" required>
+          <label for="phone">SDT</label>
+          <input type="tel" id="phone" name="entry.259393673" required placeholder="Số điện thoại">
         </div>
         <div class="column">
           <label for="email">EMAIL</label>
-          <input type="email" id="email" name="entry.1645207454" required>
+          <input type="email" id="email" name="entry.1858786059" required placeholder="abc@gmail.com">
         </div>
       </div>
       <div class="row">
         <div class="full-width">
           <label for="address">ĐỊA CHỈ THƯỜNG TRÚ</label>
-          <input type="text" id="address" name="entry.796487975" required>
+          <input type="text" id="address" name="entry.45117039" required placeholder="Địa chỉ hiện đang sinh sống">
         </div>
       </div>
       <button type="submit" id="submitBtn">SUBMIT</button>
     </form>
   </div>
 </div>
-<!-- <script src="script.js"></script> -->
+<div class="footer-container">
+    <div class="icon-container">
+      <a href="https://www.facebook.com/profile.php?id=61553270936178" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.ibb.co/hgLdGFG/facebook.png" alt="Facebook">
+      </a>
+      <a href="mailto:thamem.8824@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.ibb.co/Bsj6Vj8/gmail.png" alt="Gmail">
+      </a>
+      <a href="https://linktr.ee/tham.em" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.ibb.co/WgpxWQd/linktree.png" alt="Linktree">
+      </a>
+    </div>
+</div> 
+<script src="script.js"></script>
 </body>
 </html>
