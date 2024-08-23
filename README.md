@@ -1,7 +1,9 @@
 <img src="./images/final.png" alt="Screenshot of Auto-Form Filler" width="600"/>
 
 ## **PURPOSE OF THE WEBSITE**
-Welcome to Linked Google Form Filler! This website is designed to make data entry simpler and more efficient. It allows users to input their information, which is then automatically submitted to a Google Form. This approach minimizes manual data entry and reduces errors, making it easier to handle data collection tasks.
+Welcome to the Linked Google Form Filler guide! This project was created to streamline my own data entry tasks by linking information directly to a Google Form. While this solution is tailored to my needs as a college student, I wanted to share how I did it in case you're interested in setting up something similar for yourself.  
+<br>
+If you're looking to add a linked Google Form to your website for more efficient data collection, check out the instructions below.
 
 ## **EXPLANATION OF THE CODE**
 This HTML code creates a form that collects user information and submits it directly to a Google Form. The form does not display the Google Form itself but instead uses hidden fields to send data to the form's backend. Here’s a breakdown of how it works:
@@ -22,7 +24,8 @@ Each field collects specific data and is linked to corresponding Google Form fie
 ```
 - `name="entry.636287609"`: Maps to a specific field in the Google Form for the user's name.
 - `name="entry.259393673"`: Maps to a field for the phone number.
-Each `<input>` or `<select>` element uses these `name` attributes to correspond to the fields in the Google Form. When the form is submitted, the data is sent to the Google Form as if it was filled out directly.
+- Each `<input>` or `<select>` element uses these `name` attributes to correspond to the fields in the Google Form. When the form is submitted, the data is sent to the Google Form as if it was filled out directly.  
+  
 _NOTE: You can open yout Google Form and inspect the form fields using browser developer tools (usually by right-clicking the form and selecting "Inspect" or "Inspect Element") to find the `name` attributes of each field._
 ___
 3. **Form Layout:**
